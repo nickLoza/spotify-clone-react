@@ -3,7 +3,7 @@ import { MusicData } from "../db/data"
 import { useContext, useMemo, useState } from "react";
 
 
-import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
+import { AiOutlineHeart } from "react-icons/ai";
 import { BsFillPlayFill } from "react-icons/bs";
 import { SlOptions } from "react-icons/sl";
 import { CgLoadbarSound } from "react-icons/cg";
@@ -33,7 +33,6 @@ function MusicDetails() {
 	 	}
 	 }
 
-	// searchs the id in the list that matches with the type prop 
 	return (
 		<>
 			{/*cover and description*/}

@@ -10,7 +10,7 @@ import { SongContext } from '../../context/SongContext';
 function Aside() {
 	const navigate = useNavigate();
 	const location = useLocation ();
-	const { songId, updateSong } = useContext(SongContext)
+	const { songId } = useContext(SongContext)
 
 	function handleOnClick(type:string, id:number){
 		return navigate(`/${type}/${id}`);
