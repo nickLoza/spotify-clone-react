@@ -68,7 +68,7 @@ function SongPlayer() {
 		{songId &&
 		<div className="flex items-center justify-between fixed left-0 bottom-0 w-full h-[90px] bg-black px-4">
 			{/*left*/}
-			<div className="flex items-center gap-x-2">
+			<div className="flex items-center gap-x-2 w-[250px]">
 				<img src={currentMusic?.img} alt={currentMusic?.title} width={60} height={50}/>
 				<div className="hidden md:block text-sm mr-2">
 					<p>{currentMusic?.title}</p>

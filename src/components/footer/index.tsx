@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs"
 
 function Footer() {
 	return (
-		<footer className="flex flex-wrap gap-3 text-lg text-gray-400 ml-[85px] md:ml-[315px] p-6 mt-10">
+		<footer className="flex flex-wrap gap-3 text-lg text-gray-400 ml-[85px] md:ml-[315px] p-6 mt-10 pb-[150px]">
 			<div className="min-w-[500px]">
 				<p className="text-xl font-bold text-white mb-2">Important</p>
 				<a 

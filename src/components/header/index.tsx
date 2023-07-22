@@ -1,12 +1,16 @@
 import { BsArrowDownCircle, BsChevronLeft } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function Header() {
+
+
+
 	return (
 		<header className="flex items-center h-14 justify-between ml-[85px] md:ml-[315px] text-2xl bg-transparent mt-2 p-4 rounded-xl">
-				<button className="bg-[#00000050] rounded-xl p-1">
+				<Link className="bg-[#00000050] rounded-xl p-1" to={"/"}>
 					<BsChevronLeft/>
-				</button>
+				</Link>
 				<div className="flex items-center">
 					<button className="flex items-center text-base font-medium gap-x-1 bg-[#00000050] rounded-xl py-1 px-2">
 						<BsArrowDownCircle/> <span>Install App</span>

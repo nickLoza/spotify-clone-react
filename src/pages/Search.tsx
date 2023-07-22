@@ -24,7 +24,7 @@ function Search() {
           placeholder="Search for a song title"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="border border-gray-300 rounded text-black px-4 py-2 w-full mr-2"
+          className="border border-gray-300 bg-transparent rounded text-white px-4 py-2 w-full mr-2"
         />
         <button
           onClick={handleSearch}
